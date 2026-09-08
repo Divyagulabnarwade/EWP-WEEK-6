@@ -1,5 +1,11 @@
-<!ELEMENT cafe (name, menu)>
+<!ELEMENT cafe (item+)>
+
+<!ELEMENT item (itemId, name, category, price)>
+
+<!ELEMENT itemId (#PCDATA)>
+
 <!ELEMENT name (#PCDATA)>
-<!ELEMENT menu (item+)>
-<!ELEMENT item (name, price)>
+
+<!ELEMENT category (#PCDATA)>
+
 <!ELEMENT price (#PCDATA)>
