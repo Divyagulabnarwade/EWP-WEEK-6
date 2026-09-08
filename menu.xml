@@ -1,34 +1,42 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
-<!DOCTYPE cafe SYSTEM "menu.dtd">
+<!DOCTYPE cafe SYSTEM "cafe.dtd">
 
 <cafe>
-    <name>Bello Cafe</name>
 
-    <menu>
-        <item>
-            <name>Coffee</name>
-            <price>100</price>
-        </item>
+    <item>
+        <itemId>C001</itemId>
+        <name>Coffee</name>
+        <category>Beverage</category>
+        <price>80</price>
+    </item>
 
-        <item>
-            <name>Tea</name>
-            <price>70</price>
-        </item>
+    <item>
+        <itemId>C002</itemId>
+        <name>Tea</name>
+        <category>Beverage</category>
+        <price>60</price>
+    </item>
 
-        <item>
-            <name>Burger</name>
-            <price>180</price>
-        </item>
+    <item>
+        <itemId>C003</itemId>
+        <name>Burger</name>
+        <category>Food</category>
+        <price>150</price>
+    </item>
 
-        <item>
-            <name>Pizza</name>
-            <price>250</price>
-        </item>
+    <item>
+        <itemId>C004</itemId>
+        <name>Pizza</name>
+        <category>Food</category>
+        <price>250</price>
+    </item>
 
-        <item>
-            <name>Mocktail</name>
-            <price>150</price>
-        </item>
-    </menu>
+    <item>
+        <itemId>C005</itemId>
+        <name>Sandwich</name>
+        <category>Food</category>
+        <price>120</price>
+    </item>
+
 </cafe>
